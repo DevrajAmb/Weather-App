@@ -111,5 +111,59 @@ padding-left: 50px;
     font-weight: 700;
 }
 
+@media (max-width: 768px) {
+    .main-dev {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .dev {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .dev1, .dev2 {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .temp h1 {
+        font-size: 100px;
+    }
+
+    .temp h2 {
+        font-size: 30px;
+    }
+
+    .detail h1 {
+        font-size: 24px;
+    }
+
+    .detail p {
+        font-size: 20px;
+    }
+
+    form {
+        width: 100%;
+        padding: 0;
+    }
+
+    .top {
+        padding-left: 0;
+    }
+
+    .btn-success {
+        width: 100%;
+    }
+
+    .detail {
+        padding-left: 0;
+    }
+}
 
 
